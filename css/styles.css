@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Titan+One');
+/*global styles  */
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+/* body {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center center;
+} */
+/* nav section  #1d428a;#ffc915; rgba(17,17,17,.5)*/
+/* Nav section  */
+.topleft {
+  background-color: #1d428a;
+  height: 10px;
+}
+
+.topright {
+  background-color: #fcc915;
+  height: 10px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #1d428a;
+  background-color: rgba(17,17,17, .2);
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fcc915;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+  color: #1d428a;
+  background-color: rgba(17,17,17, .2);
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+nav.navbar {
+  position: absolute;
+  top: 10;
+  right:10;
+  left: 0;
+  z-index: 20;
+}
+
+/* jumbotron */
+.container {
+  padding: 0px;
+}
+.jumbotron {
+  background-image: url('../img/mac.jpg');
+  color: #1d428a;
+  background-size: cover;
+  background-position: center center;
+  height: 450px;
+  margin:0px;
+  padding: 30px 10px;
+}
+.brandname {
+  color: #1d428a;
+  font-family: 'Titan one', cursive;
+}
+.myname {
+  color: #1d428a;
+  font-family: 'Permanent Marker', cursive;
+}
+/* Section  */
+.info{
+  background-color: #1d428a;
+  height: 300px;
+}
+
+.title {
+  color: #fcc915;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.intro {
+  color: #fff;
+}
+/* Services  */
+.service {
+  color: #fff;
+  background-color: #7C878E;
+  padding:0px;
+}
+/* footer */
+footer {
+  background-color: #fcc915;
+  height: 100px;
+}
+
+.fab {
+    padding: 10px 45px 10px 10px;
+    font-size:3em !important;
+    width:28px;
+    height:28px;
+
+}
+
+.fa-facebook {
+    color:#3b5998;
+}
+
+.fa-twitter {
+    color:#00aced;
+}
+
+.fa-instagram {
+    color: #E4405F;
+}
+
+.fa-linkedin {
+    color:#007bb6;
+}
+
+.fa-github {
+    color:#000000;
+}
