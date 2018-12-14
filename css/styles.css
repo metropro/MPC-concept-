@@ -47,7 +47,7 @@ html, body {
 nav.navbar {
   position: absolute;
   top: 10;
-  right:10;
+  right:25;
   left: 25;
   z-index: 20;
 }
