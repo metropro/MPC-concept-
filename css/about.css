@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Titan+One');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
 /*global styles  */
 html, body {
   overflow-x: hidden;
@@ -62,11 +63,12 @@ nav.navbar {
   padding: 0px;
 }
 .jumbotron {
-  background-image: url('../img/mac.jpg');
+  background-image: url('../img/mac2.jpg');
   color: #1d428a;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 450px;
+  height: 500px;
   margin:0px;
   padding: 30px 10px;
 }
@@ -89,12 +91,12 @@ nav.navbar {
 }
 /* Section  */
 .info{
-  background-color: #1d428a;
+  background-color: #fcc915;
   padding:20px 20px;
 }
 
 .title {
-  color: #fcc915;
+  color: #1d428a;
   font-family: 'Permanent Marker', cursive;
 }
 
@@ -103,22 +105,36 @@ nav.navbar {
   margin: 0;
   color: #fff;
 }
-/* Services  */
-.service {
+/* contact */
+
+.connect {
+  color: #fcc915;
+  font-family: 'Permanent Marker', cursive;
+}
+.contact {
+  background-color: #1d428a;
+}
+.contact_form {
   color: #fff;
-  background-color: #7C878E;
-  padding:0px;
-  padding-bottom: 40px;
+  border: 1px solid #fff;
 
 }
-.product {
-  padding: 10px 10px;
+
+.contact_form form {
+  padding: 5% 0;
 }
 
-img {
-  max-height: 100px;
-  max-width: 220px;
+.contact_form span {
+  color: #ff0d06;
+
 }
+
+.contact_bottom {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+/* contact ends  */
 /* footer */
 footer {
   background-color: #fcc915;

@@ -6,7 +6,7 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.min.css">
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/about.css">
 </head>
 <body>
 <!-- Navbar  -->
@@ -18,43 +18,92 @@
 </div>
 <nav class="navbar navbar-default">
 	<div class="container">
-		<div class="navbar-default"><button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#navbar-collapse">
+		<div class="navbar-default">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target=".navbar-collapse">
 				<span class="sr-only">Toggle Navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
       </button>
-		</div>
+      <a class="navbar-brand brandname navbar-left" href="#">METROPRO</a>
   <div class="collapse navbar-collapse" id="navbar-collapse">
-    <h1 class="nav navbar-nav navbar-left brandname">METROPRO</h1>
 	 <ul class="nav navbar-nav navbar-right">
-		<li class="active"><a href="">Home<span class="sr-only">(current)</span></a></li>
-		<li>
-			<a href="">About</a></li>
-		<li>
-			<a href="">Portfolio</a></li>
-		<li>
+		<li >
+      <a href="index.html">Home</a>
+    </li>
+			<li class="active">
+        <a href="about.html">About<span class="sr-only">(current)</span></a>
+      </li>
+  	<li>
+			<a href="portfolio.html">Portfolio</a>
+    </li>
 	</ul>
   </div>
+</div>
 </div>
 </nav>
 <!-- End Navbar   -->
 <!-- Jumbotron  -->
 <div class="container">
 <div class="jumbotron">
-	<div class="container text-left text-uppercase">
-		<h1 class="myname">By: Roy Garcia</h1>
+	<div class="container text-center text-uppercase">
+		<h2 class="myname">By: Roy Garcia</h2>
 	</div>
 </div>
 </div>
 <!-- End Jumbotron -->
-<!-- About Me -->
-<!-- End About Me -->
+<!-- About section  -->
+<div class="container info">
+	<div class="row text-center">
+		<div class="col-md-8 col-md-offset-2 center">
+			<h1 class="text-uppercase Title">Welcome</h1>
+			<p class="intro">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto dolores sequi officiis amet optio ad hic culpa beatae, ut quidem omnis in iste nisi facilis sed, suscipit illo eos quia, harum rem mollitia. Voluptatum, perferendis illum soluta sit maiores dolorum at iusto nostrum non officia praesentium pariatur. Sequi atque, iste, repellat obcaecati aut natus voluptates odit aliquid, unde rerum quis laboriosam, incidunt. Laborum aut, at quibusdam. Nostrum reprehenderit sit dolorem saepe deserunt tenetur veniam harum."</p>
+      </div>
+		</div>
+	</div>
+</div>
+<!-- End about section -->
+
+<!-- contact section starts  -->
+    	<div class="container contact">
+    			<div class="row">
+    				<div class="col-sm-12 text-center">
+    					<h1 class="text-uppercase connect">Contact Me</h1>
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col-sm-12 text-center">
+    					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam soluta eos, totam. Architecto reiciendis nesciunt nemo similique sit officia molestiae, aliquid distinctio, cum quisquam, laborum tenetur neque, sunt incidunt mollitia.</p>
+    				</div>
+    			</div>
+    			<div class="row contact_bottom">
+    				<div class="col-sm-10 col-sm-offset-1">
+    					<div class="col-sm-10 col-sm-offset-1 contact_form">
+    						<form action="">
+    							<div class="form-group">
+										<label for="Name">Name<span>*</span></label><input type="text" class="form-control" id="inputName" placeholder="Your Name"></div>
+    							<div class="form-group">
+										<label for="Email">Email<span>*</span></label><input type="text" class="form-control" id="inputName" placeholder="Your Name"></div>
+    							<div class="form-group">
+										<label for="subject">Subject<span>*</span></label><input type="text" class="form-control" id="inputName" placeholder="Your Name"></div>
+    							<div class="form-group">
+										<label for="Abby">Subject:</label><textarea name="" id="" cols="30" rows="3" class="form-control"></textarea></div>
+    							<div class="checkbox">
+    								<label for=""><input type="checkbox">I'm not a robot!</input></label>
+    								<button type="submit" class="btn btn-default center-block">Send Message</button>
+    								<p class="text-center" id="contact_fine_print">All Fields marked <span>*</span> are mandatory</p>
+    							</div>
+    						</form>
+    					</div>
+    				</div>
+    			</div>
+    	</div>
+<!-- contact section ends   -->
 <!-- Footer Section  -->
 <footer class="container-fluid">
   <div class="row centered">
     <div class="container">
-    <div class="col-sm-12 text-center social">
+    <div class="col-sm-12 text-center">
       <a href="#">
       <i class="fab fa-facebook">
       </i>
@@ -70,11 +119,11 @@
     <a href="#">
     <i class="fab fa-instagram">
     </i>
-  </a>
+    </a>
   <a href="#">
-  <i class="fab fa-github">
-  </i>
-</a>
+    <i class="fab fa-github">
+    </i>
+  </a>
     </div>
   <div class="row">
     <div class="col-sm-12 fine_print text-center">
