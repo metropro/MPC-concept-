@@ -10,8 +10,6 @@ html, body {
   margin: 0;
 }
 
-/* body {
-
 /* Nav section  */
 .topleft {
   background-color: #1d428a;
@@ -48,26 +46,18 @@ html, body {
 nav.navbar {
   position: absolute;
   top: 10;
-  right:10;
+  right:25;
   left: 25;
   z-index: 20;
 }
+
 .brandname {
   font-size: 40px;
   color: #1d428a !important;
   font-family: 'Titan one', cursive;
 }
 
-/* jumbotron */
-
-/* Section  */
-.service {
-  height: 800px;
-}
-.info{
-  background-color: #fcc915;
-  padding:20px 20px;
-}
+/* portfolio */
 
 .portfolio {
   padding-top: 150px;
@@ -80,12 +70,10 @@ img {
   max-width: 150px;
 }
 
-.intro {
-  padding: 0;
-  margin: 0;
-  color: #fff;
+p {
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
-
 /* footer */
 footer {
   background-color: #fcc915;
