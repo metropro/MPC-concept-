@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Titan+One');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
-
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
 /*global styles  */
 html, body {
   overflow-x: hidden;
@@ -77,7 +77,7 @@ p {
 /* footer */
 footer {
   background-color: #fcc915;
-  height: 100px;
+  height: 130px;
 }
 
 .fab {
