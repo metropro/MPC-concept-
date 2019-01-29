@@ -94,14 +94,23 @@ nav.navbar {
   }
   .brandname {
     text-align: left;
-    font-size: 21px;
+    font-size: 21px !important;
+  }
+  .title {
+    font-size: 32px !important;
   }
   .vision {
     padding-top:40px;
-    font-size: 30px;
+    font-size: 20px !important;
+  }
+  .pro {
+    font-size: 32px !important;
+  }
+  .pmy {
+    font-size: 32px !important;
   }
   .intro {
-    font-size: 15px;
+    font-size: 20px !important;
   }
   .service {
     padding:30px;
@@ -147,6 +156,8 @@ nav.navbar {
 }
 
 .protext {
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom:20px;
   color: #000;
   font-size: 20px;
@@ -176,6 +187,7 @@ nav.navbar {
 }
 
 img {
+  padding-left: 20px;
   max-height: 100px;
   max-width: 220px;
 }
