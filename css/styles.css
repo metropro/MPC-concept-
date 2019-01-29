@@ -53,7 +53,7 @@ nav.navbar {
   z-index: 20;
 }
 .brandname {
-  font-size: 35px;
+  font-size: 50px;
   color: #375696 !important;
   font-family: 'Titan one', cursive;
 }
@@ -85,7 +85,7 @@ nav.navbar {
   height: 300;
   }
   .brandname {
-    font-size: 15px;
+    font-size: 16px;
   }
   .vision {
     padding-top:40px;
@@ -117,6 +117,7 @@ nav.navbar {
   font-family: 'Permanent Marker', cursive;
   font-size: 50px;
   padding-bottom: 10px;
+  padding-left: 20px;
 }
 
 .intro {
@@ -133,6 +134,26 @@ nav.navbar {
   font-family: 'Permanent Marker', cursive;
   font-size: 50px;
   padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.protext {
+  padding-bottom:20px;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Bitter', sans-serif;
+}
+.pname {
+  font-size: 16;
+  color: #375696;
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+.comp {
+  color: #000;
+  font-size: 16px;
+  font-family: 'Bitter', sans-serif;
 }
 .service {
   color: #000;
@@ -154,7 +175,22 @@ img {
   padding:20px 20px;
   color: #375696;
   background-color: #eddaa6;
+  font-size: 50px;
   font-family: 'Permanent Marker', cursive;
+}
+.pmy {
+  padding:20px 20px;
+  color: #375696;
+  background-color: #eddaa6;
+  font-size: 50px;
+  font-family: 'Permanent Marker', cursive;
+}
+.pmytext {
+  padding-bottom:20px;
+  margin: 0;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Bitter', sans-serif;
 }
 /* footer */
 footer {
