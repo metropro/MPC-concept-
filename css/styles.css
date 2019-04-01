@@ -68,6 +68,7 @@ nav.navbar {
 }
 
 /* jumbotron */
+
 .container {
   padding: 0px;
 }
@@ -81,7 +82,7 @@ nav.navbar {
   color: #1d428a;
   background-size: cover;
   background-position: center center;
-  height: 450px;
+  height: 80vh;
   margin:0px;
   padding: 30px 10px;
 }
@@ -128,7 +129,8 @@ nav.navbar {
 /* Section  */
 .info{
   background-color: #375696;
-  padding:20px 20px;
+  padding:40px 20px;
+  height: 85vh;
 }
 
 .title {
@@ -177,9 +179,10 @@ nav.navbar {
   font-family: 'Bitter', sans-serif;
 }
 .service {
+  height: 85vh;
   color: #000;
   background-color: #cdcdcd;
-  padding:0px;
+  padding:50px;
   padding-bottom: 40px;
 
 }
@@ -194,6 +197,7 @@ img {
 }
 
 .pm {
+  height: 85vh;
   padding:20px 20px;
   color: #375696;
   background-color: #eddaa6;
@@ -213,6 +217,12 @@ img {
   color: #000;
   font-size: 20px;
   font-family: 'Bitter', sans-serif;
+}
+
+.st{
+  background-color: #375696;
+  padding:150px 20px;
+  height: 85vh;
 }
 /* footer */
 footer {
