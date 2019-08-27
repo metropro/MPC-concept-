@@ -18,7 +18,7 @@ html, body {
 }
 
 .topright {
-  background-color: #fcc915;
+  background-color: #eddaa6;
   height: 10px;
 }
 
@@ -30,7 +30,7 @@ html, body {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #fcc915;
+  color: #eddaa6;
   text-shadow: 1px 1px 2px #0a0a0a;
 }
 
@@ -90,7 +90,7 @@ nav.navbar {
 }
 /* Section  */
 .info{
-  background-color: #fcc915;
+  background-color: #eddaa6;
   padding:20px 20px;
 }
 
@@ -107,7 +107,7 @@ nav.navbar {
 /* contact */
 
 .connect {
-  color: #fcc915;
+  color: #eddaa6;
   font-family: 'Permanent Marker', cursive;
 }
 .contact {
@@ -136,7 +136,7 @@ nav.navbar {
 /* contact ends  */
 /* footer */
 footer {
-  background-color: #fcc915;
+  background-color: #eddaa6;
   height: 100px;
 }
 
